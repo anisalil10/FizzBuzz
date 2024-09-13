@@ -1,0 +1,19 @@
+public class Reduce {
+    public static void main(String[] args) {
+        int n = 100;
+        int count = 0;
+        while (n > 0) {
+            boolean Even = n % 2 == 0;
+            if (Even) {
+                n = n / 2;
+                count += 1;
+            }
+            else {
+                n = n - 1;
+                count += 1;
+            }
+
+        }
+        System.out.println(count);
+    }
+}
