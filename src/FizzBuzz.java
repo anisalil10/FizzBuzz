@@ -8,11 +8,11 @@ class FizzBuzz {
         while (i < 100) {
 
             // Find out which numbers divide i.
-            i = getAnInt(i);
+            i = cheese(i);
         }
     }
 
-    private static int getAnInt(int i) {
+    private static int cheese(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
